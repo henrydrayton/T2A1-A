@@ -134,22 +134,39 @@ All tables relate via primary and foreign keys, used to navigate and perform fun
 
 The system works in a logical structure and is best represented in a visual format. 
 
-![Foreign/Primary Keys](/Images/foreignkey.jpeg)
+<p align= "center">
+
+<img src="/Images/foreignkey.jpeg">
+
+</p>
+
 
 Depending on the attributes in the tables, the tables can have one to one, one to many or many to many relationships. 
 
 ### One to One
 
-![One to One](/Images/OneToOne.png)
+<p align= "center">
+
+<img src="/Images/OneToOne.png">
+
+</p>
 
 ### Many to One
 
-![Many to One](/Images/ManyToOne.png)
+<p align= "center">
+
+<img src="/Images/ManyToOne.png">
+
+</p>
 
 
 ### Many to Many
-<!-- ![Many to Many](/Images/ManyToMany.png) -->
-<img align="center" src="/Images/ManyToMany.png">
+<p align= "center">
+
+<img src="/Images/ManyToMany.png">
+
+</p>
+
 
 ## Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
 
@@ -270,5 +287,8 @@ Payment, booking and tracking information has <strong>zero or one </strong> (use
 
 ## g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
 
+<p align="center">
 
-<img align="center" src="/Images/T2_A.png">
+<img src="/Images/T2_A.png">
+
+</p>

@@ -271,3 +271,4 @@ Payment, booking and tracking information has <strong>zero or one </strong> (use
 
 ![Many to Many](/Images/T2_A.png)
 
+<img align="center" src="/Images/T2_A.png">

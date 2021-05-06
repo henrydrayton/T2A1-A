@@ -148,7 +148,8 @@ Depending on the attributes in the tables, the tables can have one to one, one t
 
 
 ### Many to Many
-![Many to Many](/Images/ManyToMany.png)
+<!-- ![Many to Many](/Images/ManyToMany.png) -->
+<img align="center" src="/Images/ManyToMany.png">
 
 ## Describe the integrity aspects of the relational database model. Your description should include information about the types of data integrity and how they can be enforced in a relational database.
 
@@ -269,6 +270,5 @@ Payment, booking and tracking information has <strong>zero or one </strong> (use
 
 ## g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
 
-![Many to Many](/Images/T2_A.png)
 
 <img align="center" src="/Images/T2_A.png">

@@ -1,5 +1,7 @@
 # T2A1_A Henry Drayton
 
+
+
 ## Describe the architecture of a typical Rails application
 
 Ruby on Rails is an additional open-source framework for the Ruby language that supports back-end application development. The Rails framework follows the Model, View and Controller (MVC) architectural structure, allowing for greater agility and maintainability within applications. 
@@ -21,15 +23,19 @@ PostgreSQL is an advanced open-source database management system that is the fir
 
 - One of the most attractive features of this database management system, especially to startups, is the fact it’s open-source. The system is managed and maintained by a highly skilled community of developers and has an extensive library of additional plug-ins for more significant optimisation. 
 <br>  
+
 - The database supports Linux, Mac and Windows and caters for advanced data types, including JSON and geographic objects.
 <br>  
+
 - The database has built-in security features and also has the ability for additional restrictions to be applied.
-<br>   
+<br>  
+
 - PostgreSQL has advanced scalability features that allow startups to grow without worrying about switching over to a privatised database system.
 
 ### Cons
 - The fact that PostgreSQL is open-source also comes with its downfalls. Database systems such as Oracle, MongoDB and Microsoft SQL are managed by massive companies meaning they come with warranty, liability and indemnity protection features PostgreSQL does not. 
 <br>
+
 - The performance of PostgreSQL can also be considered a downfall. The system reads the data in the table from top to bottom, meaning data structures with many rows and columns may reduce performance speeds. 
 
 ## Discuss the implementation of Agile project management methodology
@@ -75,12 +81,16 @@ The standard manual software testing procedure is as follows:
 
 1. Identify what elements of the software need to be tested. These elements should be divided into separate procedures being, unit testing (individual components), integration testing (several units in order), system testing (the entire software) and acceptance testing (feedback from developers and expected users). 
 <br>
+
 2. All tests should be planned clearly and logically to ensure they target specific outcomes and software requirements. 
 <br>
+
 3. Before testing commences, all tests should first be reviewed by a senior staff member.
 <br>
+
 4. Carry out all tests in an orderly manner and record any bugs that have occurred. 
 <br>
+
 5. Review all bugs, implement changes in the code to fix them and then carry out testing again, adjusting the tests if need be. 
 
 ## Discuss and analyse requirements related to information system security and how they relate to the project
@@ -224,7 +234,7 @@ Airbnb has also teamed up with social media platforms such as Facebook to create
 ### User
 First name and last name, email address, phone number, date of birth
 
-* Optional/Variable depending on host or guest *
+<em> Optional/Variable depending on host or guest </em>
 
 Passport/ID, bank account, address, emergency contact, profile picture, preferred language, gender, city, personal description
 
@@ -260,3 +270,4 @@ Payment, booking and tracking information has <strong>zero or one </strong> (use
 ## g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
 
 ![Many to Many](/Images/T2_A.png)
+

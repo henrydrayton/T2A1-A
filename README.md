@@ -1,5 +1,7 @@
 # T2A1_A Henry Drayton
 
+### GitHub Link
+https://github.com/henrydrayton/T2A1-A
 
 
 ## Describe the architecture of a typical Rails application
@@ -133,6 +135,7 @@ Relational databases are a powerful way of storing logical data points using a c
 All tables relate via primary and foreign keys, used to navigate and perform functions on specific data. The primary keys are dominant categories used to link related tables. Foreign keys are primary keys listed in a corresponding table. 
 
 The system works in a logical structure and is best represented in a visual format. 
+
 
 <p align= "center">
 

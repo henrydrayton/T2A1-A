@@ -253,45 +253,44 @@ Airbnb has also teamed up with social media platforms such as Facebook to create
 ## e. Identify entities which must be tracked by the app
 
 ### User
-First name and last name, email address, phone number, date of birth
+Name, email, address, phone number, DOB, address, gender, mobile
 
-<em> Optional/Variable depending on host or guest </em>
+<em> Optional/Variable depending on host or guest</em>
 
 Passport/ID, bank account, address, emergency contact, profile picture, preferred language, gender, city, personal description
 
-### Payment, Bookings and Tracking
+### Privacy
+Username and password
 
-Geolocation, pages and content viewed, clicked links to third-party applications, IP addresses, access dates and time, UID, cookie data, define information, payment amount, type of payment, PayPal email, IBAN information, payment instrument expiry date. 
-
-### Personal Information from third parties, e.g. social media
-
-Friends list, criminal convictions, sex offender checks, police background checks, fraud warnings
-
-### Listings
+### Listing
 Address, housing type, capacity, amenities, availability, rating, price, rules, booking method
+
+### Gender
+Male, female, non-binary, prefer not to say
 
 ## f. Identify the relationships and associations between the entities you have identified in part (e)
 
 ### User
+User has <strong> one </strong>  (user information),
+User information has <strong> one </strong> (user)
 
-User has <strong>one</strong> (name, email, address, phone number, DOB, Passport/ID, bank account, address, emergency contact, preferred language, gender, city, personal description)
+### Privacy 
+Privacy has <strong>one</strong> (username and password)
+Username and password has <strong>one</strong> (user)
 
-### Personal Information from third parties, e.g. social media 
+### Listing & Booking
+Booking has <strong>one</strong> (listing)
+Listing has <strong>zero or many</strong> (bookings)
 
-User has <strong>zero or many</strong> (personal information), personal information has  <strong>zero or one </strong> (user)
+### Gender
+User has <strong> one</strong> (gender)
+Gender has <strong> one</strong> (user)
 
-### Listings
-User has <strong>zero or many</strong> (listings)
-Listings has <strong>zero or one</strong> (user). 
-
-### Payment and Booking
-User has <strong>zero or many </strong>(payment, booking and tracking information)
-Payment, booking and tracking information has <strong>zero or one </strong> (user).
 
 ## g. Design a schema using an Entity Relationship Diagram (ERD) appropriate for the database of this website (assuming a relational database model)
 
 <p align="center">
 
-<img src="/Images/T2_A.png">
+<img src="/Images/T2A1_A.png">
 
 </p>

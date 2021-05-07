@@ -253,20 +253,20 @@ Airbnb has also teamed up with social media platforms such as Facebook to create
 ## e. Identify entities which must be tracked by the app
 
 ### User
-Name, email, address, phone number, DOB, address, gender, mobile
+Name, email, address, phone number, DOB, address, gender and mobile
 
 <em> Optional/Variable depending on host or guest</em>
 
-Passport/ID, bank account, address, emergency contact, profile picture, preferred language, gender, city, personal description
+Passport/ID, bank account, address, emergency contact, profile picture, preferred language, gender, city and personal description
 
 ### Privacy
 Username and password
 
 ### Listing
-Address, housing type, capacity, amenities, availability, rating, price, rules, booking method
+Address, housing type, capacity, amenities, availability, rating, price, rules and booking method
 
 ### Gender
-Male, female, non-binary, prefer not to say
+Male, female, non-binary and prefer not to say
 
 ## f. Identify the relationships and associations between the entities you have identified in part (e)
 
